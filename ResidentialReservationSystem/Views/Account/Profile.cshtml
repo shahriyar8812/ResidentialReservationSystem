@@ -1,0 +1,57 @@
+﻿@model List<Domain.Entities.Reservation>
+
+@{
+    ViewData["Title"] = "پروفایل";
+    var user = ViewBag.User as Domain.Entities.User;
+}
+
+<div class="container">
+    <h1 class="text-center my-5">پروفایل</h1>
+
+    <!-- اطلاعات کاربر -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h3>اطلاعات کاربر</h3>
+        </div>
+        <div class="card-body">
+            <p><strong>نام کاربری:</strong> @user.Username</p>
+            <p><strong>نام کامل:</strong> @user.FullName</p>
+            <p><strong>نقش:</strong> @user.Role</p>
+        </div>
+    </div>
+
+    <!-- رزروهای کاربر -->
+    <h2 class="text-center my-4">رزروهای شما</h2>
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">هیچ رزرو فعالی وجود ندارد.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>شناسه</th>
+                    <th>واحد</th>
+                    <th>تاریخ ورود</th>
+                    <th>تاریخ خروج</th>
+                    <th>قیمت کل</th>
+                    <th>وضعیت</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var reservation in Model)
+                {
+                    <tr>
+                        <td>@reservation.Id</td>
+                        <td>@reservation.Unit.Title</td>
+                        <td>@reservation.CheckInDate.ToShortDateString()</td>
+                        <td>@reservation.CheckOutDate.ToShortDateString()</td>
+                        <td>@reservation.TotalPrice.ToString("C")</td>
+                        <td>@reservation.Status</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

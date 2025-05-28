@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Domain.Entities.Unit>
+
+@{
+    ViewData["Title"] = "مدیریت واحدها";
+}
+
+<div class="container">
+    <h1 class="text-center my-5 animate__animated animate__fadeIn">مدیریت واحدها</h1>
+
+    <p>
+        <a asp-action="CreateUnit" class="btn btn-primary mb-3">ایجاد واحد جدید</a>
+    </p>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="text-muted">هیچ واحدی موجود نیست.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>عنوان</th>
+                    <th>مجتمع</th>
+                    <th>ظرفیت</th>
+                    <th>تعداد اتاق‌خواب‌ها</th>
+                    <th>موجود</th>
+                    <th>عملیات</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var unit in Model)
+                {
+                    <tr>
+                        <td>@unit.Title</td>
+                        <td>@(unit.Complex?.Name ?? "N/A")</td>
+                        <td>@unit.Capacity</td>
+                        <td>@unit.BedroomCount</td>
+                        <td>@(unit.IsAvailable ? "بله" : "خیر")</td>
+                        <td>
+                            <a asp-action="EditUnit" asp-route-id="@unit.Id" class="btn btn-sm btn-primary">ویرایش</a>
+                            <form asp-action="DeleteUnit" asp-route-id="@unit.Id" method="post" style="display:inline;" onsubmit="return confirm('آیا از حذف این واحد مطمئن هستید؟');">
+                                <button type="submit" class="btn btn-sm btn-danger">حذف</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+}

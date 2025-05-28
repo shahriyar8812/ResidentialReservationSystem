@@ -1,0 +1,239 @@
+﻿@using Domain.Entities
+@model Domain.Entities.Unit
+
+@{
+    ViewData["Title"] = "ایجاد واحد جدید";
+}
+
+<h2>ایجاد واحد جدید</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        <p>@TempData["Error"]</p>
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        <p>@TempData["Success"]</p>
+    </div>
+}
+
+<form asp-action="CreateUnit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Title">عنوان</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ComplexId">مجتمع</label>
+        <select asp-for="ComplexId" class="form-control" asp-items="@(new SelectList(ViewBag.Complexes, "Id", "Name"))">
+            <option value="">یک مجتمع انتخاب کنید</option>
+        </select>
+        <span asp-validation-for="ComplexId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">توضیحات</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Capacity">ظرفیت</label>
+        <input asp-for="Capacity" class="form-control" type="number" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BedroomCount">تعداد اتاق‌خواب‌ها</label>
+        <input asp-for="BedroomCount" class="form-control" type="number" />
+        <span asp-validation-for="BedroomCount" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HasMandatoryCheckInOut">روزهای ورود/خروج اجباری؟</label>
+        <input asp-for="HasMandatoryCheckInOut" type="checkbox" class="form-check-input" style="transform: scale(1.5); margin-right: 10px;" />
+        <span style="font-weight: bold; color: #d9534f;">(این گزینه را فعال کنید تا روزهای ورود/خروج خاصی اجباری شوند)</span>
+        <span asp-validation-for="HasMandatoryCheckInOut" class="text-danger"></span>
+    </div>
+
+    <div class="form-group" id="photoFields">
+        <label>بارگذاری تصاویر</label>
+        <div class="photo-entry">
+            <input type="file" name="images" class="form-control-file" accept="image/*" multiple />
+            <button type="button" class="btn btn-danger btn-sm remove-photo-btn" onclick="removePhotoField(this)" style="display:none;">✖</button>
+        </div>
+        <button type="button" id="addPhotoButton" class="btn btn-primary mt-2">افزودن تصاویر بیشتر</button>
+    </div>
+
+    <h4>نرخ‌ها</h4>
+    <div id="ratesFields">
+        <div class="form-group rate-entry">
+            <label>دوره نرخ ۱</label>
+            <div class="row align-items-end">
+                <div class="col">
+                    <label>روز شروع</label>
+                    <select name="ratesStartDates" class="form-control">
+                        <option value="">یک روز انتخاب کنید</option>
+                        <option value="Monday">دوشنبه</option>
+                        <option value="Tuesday">سه‌شنبه</option>
+                        <option value="Wednesday">چهارشنبه</option>
+                        <option value="Thursday">پنج‌شنبه</option>
+                        <option value="Friday">جمعه</option>
+                        <option value="Saturday">شنبه</option>
+                        <option value="Sunday">یک‌شنبه</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label>روز پایان</label>
+                    <select name="ratesEndDates" class="form-control">
+                        <option value="">یک روز انتخاب کنید</option>
+                        <option value="Monday">دوشنبه</option>
+                        <option value="Tuesday">سه‌شنبه</option>
+                        <option value="Wednesday">چهارشنبه</option>
+                        <option value="Thursday">پنج‌شنبه</option>
+                        <option value="Friday">جمعه</option>
+                        <option value="Saturday">شنبه</option>
+                        <option value="Sunday">یک‌شنبه</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label>قیمت هر شب</label>
+                    <input type="number" name="ratesPrices" class="form-control" step="0.01" />
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-danger btn-sm remove-rate-btn" onclick="removeRateField(this)" style="display:none;">✖</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary mt-2" onclick="addRateField()">افزودن دوره نرخ دیگر</button>
+
+    <h4>ویژگی‌ها</h4>
+    @foreach (var feature in ViewBag.Features as List<Feature>)
+    {
+        <div class="form-check">
+            <input type="checkbox" name="selectedFeatureIds" value="@feature.Id" class="form-check-input"
+            @(Model.UnitFeatures?.Any(uf => uf.FeatureId == feature.Id) == true ? "checked" : "") />
+            <label class="form-check-label">@feature.Name</label>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-success mt-3">ایجاد واحد</button>
+</form>
+
+<script>
+    let rateIndex = 1;
+    let photoIndex = 1;
+
+    function addRateField() {
+        const container = document.getElementById('ratesFields');
+        const newField = document.createElement('div');
+        newField.className = 'form-group rate-entry';
+        newField.innerHTML = `
+            <label>دوره نرخ ${rateIndex + 1}</label>
+            <div class="row align-items-end">
+                <div class="col">
+                    <label>روز شروع</label>
+                    <select name="ratesStartDates" class="form-control">
+                        <option value="">یک روز انتخاب کنید</option>
+                        <option value="Monday">دوشنبه</option>
+                        <option value="Tuesday">سه‌شنبه</option>
+                        <option value="Wednesday">چهارشنبه</option>
+                        <option value="Thursday">پنج‌شنبه</option>
+                        <option value="Friday">جمعه</option>
+                        <option value="Saturday">شنبه</option>
+                        <option value="Sunday">یک‌شنبه</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label>روز پایان</label>
+                    <select name="ratesEndDates" class="form-control">
+                        <option value="">یک روز انتخاب کنید</option>
+                        <option value="Monday">دوشنبه</option>
+                        <option value="Tuesday">سه‌شنبه</option>
+                        <option value="Wednesday">چهارشنبه</option>
+                        <option value="Thursday">پنج‌شنبه</option>
+                        <option value="Friday">جمعه</option>
+                        <option value="Saturday">شنبه</option>
+                        <option value="Sunday">یک‌شنبه</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label>قیمت هر شب</label>
+                    <input type="number" name="ratesPrices" class="form-control" step="0.01" />
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-danger btn-sm remove-rate-btn" onclick="removeRateField(this)">✖</button>
+                </div>
+            </div>
+        `;
+        container.appendChild(newField);
+        rateIndex++;
+        updateRateRemoveButtons();
+    }
+
+    function addPhotoField() {
+        const photoFields = document.getElementById('photoFields');
+        const newEntry = document.createElement('div');
+        newEntry.className = 'photo-entry';
+        newEntry.innerHTML = `
+            <input type="file" name="images" class="form-control-file mt-2" accept="image/*" multiple />
+            <button type="button" class="btn btn-danger btn-sm remove-photo-btn mt-2" onclick="removePhotoField(this)">✖</button>
+        `;
+        photoFields.insertBefore(newEntry, document.getElementById('addPhotoButton'));
+        photoIndex++;
+        updatePhotoRemoveButtons();
+    }
+
+    function removeRateField(button) {
+        const rateEntry = button.closest('.rate-entry');
+        rateEntry.remove();
+        rateIndex--;
+        updateRateLabels();
+        updateRateRemoveButtons();
+    }
+
+    function removePhotoField(button) {
+        const photoEntry = button.closest('.photo-entry');
+        photoEntry.remove();
+        photoIndex--;
+        updatePhotoRemoveButtons();
+    }
+
+    function updateRateLabels() {
+        const rateEntries = document.querySelectorAll('#ratesFields .rate-entry');
+        rateEntries.forEach((entry, index) => {
+            entry.querySelector('label').textContent = `دوره نرخ ${index + 1}`;
+        });
+    }
+
+    function updateRateRemoveButtons() {
+        const rateEntries = document.querySelectorAll('#ratesFields .rate-entry');
+        const removeButtons = document.querySelectorAll('.remove-rate-btn');
+        removeButtons.forEach(button => {
+            button.style.display = rateEntries.length > 1 ? 'block' : 'none';
+        });
+    }
+
+    function updatePhotoRemoveButtons() {
+        const photoEntries = document.querySelectorAll('#photoFields .photo-entry');
+        const removeButtons = document.querySelectorAll('.remove-photo-btn');
+        removeButtons.forEach(button => {
+            button.style.display = photoEntries.length > 1 ? 'block' : 'none';
+        });
+    }
+
+    document.getElementById('addPhotoButton').addEventListener('click', addPhotoField);
+
+    updateRateRemoveButtons();
+    updatePhotoRemoveButtons();
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,69 @@
+﻿@model List<Domain.Entities.Unit>
+
+<h2>Units List</h2>
+
+@if (!Model.Any())
+{
+    <p>No units available at the moment.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var unit in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    @if (unit.UnitImages != null && unit.UnitImages.Any())
+                    {
+                        <div id="imageSlider_@unit.Id" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                @for (int i = 0; i < unit.UnitImages.Count; i++)
+                                {
+                                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                                        <img src="@unit.UnitImages.ElementAt(i).ImageUrl" class="d-block w-100" alt="Unit Image" style="max-height: 200px; object-fit: cover;">
+                                    </div>
+                                }
+                            </div>
+                            <a class="carousel-control-prev" href="#imageSlider_@unit.Id" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#imageSlider_@unit.Id" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <img src="/images/placeholder.jpg" class="card-img-top" alt="No Image" style="max-height: 200px; object-fit: cover;">
+                    }
+
+                    <div class="card-body">
+                        <h5 class="card-title">@unit.Title</h5>
+                        <p class="card-text">
+                            <strong>Complex:</strong> @unit.Complex.Name<br />
+                            <strong>Description:</strong> @unit.Description<br />
+                            <strong>Capacity:</strong> @unit.Capacity<br />
+                            <strong>Bedrooms:</strong> @unit.BedroomCount<br />
+                            <strong>Availability:</strong> @(unit.IsAvailable ? "Available" : "Not Available")
+                        </p>
+                        @if (unit.IsAvailable && User.Identity.IsAuthenticated)
+                        {
+                            <a href="@Url.Action("Create", "Reservations", new { unitId = unit.Id })" class="btn btn-primary">Reserve Now</a>
+                        }
+                        else if (!User.Identity.IsAuthenticated)
+                        {
+                            <a href="@Url.Action("Login", "Account")" class="btn btn-secondary">Login to Reserve</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+}

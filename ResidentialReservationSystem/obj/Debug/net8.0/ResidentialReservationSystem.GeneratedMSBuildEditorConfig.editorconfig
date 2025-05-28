@@ -17,41 +17,137 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ResidentialReservationSystem
 build_property.RootNamespace = ResidentialReservationSystem
-build_property.ProjectDir = C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\
+build_property.ProjectDir = E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\ResidentialReservationSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem
+build_property.MSBuildProjectDirectory = E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\ResidentialReservationSystem
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/Index.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/Complexes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcGxleGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/CreateComplex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ29tcGxleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/CreateUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlVW5pdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/EditComplex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvbXBsZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/EditUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVuaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/ManageCheckInRules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlQ2hlY2tJblJ1bGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/Reservations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVzZXJ2YXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/Units.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVW5pdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Admin/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/ComplexUnits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wbGV4VW5pdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/Privacy.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/Error.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/Reserve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/UnitDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbml0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/Units.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbml0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Home/UnitsByComplex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbml0c0J5Q29tcGxleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Reservation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/_ViewImports.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Units/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/_ViewStart.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mmina/OneDrive/Desktop/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/_Layout.cshtml]
+[E:/asp.net/پروژه های کلاسی/ResidentialReservationSystem/ResidentialReservationSystem/ResidentialReservationSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bvikms1lmn

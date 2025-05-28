@@ -1,0 +1,56 @@
+﻿@model Domain.Entities.Reservation
+
+<div class="container">
+    <h1 class="text-center my-5">رزرو واحد: @ViewBag.Unit.Title</h1>
+    <form asp-action="Create" method="post">
+        <input type="hidden" asp-for="UnitId" />
+        <div class="card mx-auto" style="max-width: 500px;">
+            <div class="card-body">
+                <div class="form-group mb-3">
+                    <label asp-for="CheckInDate" class="form-label">تاریخ ورود</label>
+                    <input asp-for="CheckInDate" type="date" class="form-control" required onchange="calculateTotalPrice()" />
+                    <span asp-validation-for="CheckInDate" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="CheckOutDate" class="form-label">تاریخ خروج</label>
+                    <input asp-for="CheckOutDate" type="date" class="form-control" required onchange="calculateTotalPrice()" />
+                    <span asp-validation-for="CheckOutDate" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label">قیمت کل:</label>
+                    <input type="text" id="totalPrice" class="form-control" readonly />
+                </div>
+                <button type="submit" class="btn btn-success w-100">ثبت رزرو</button>
+            </div>
+        </div>
+    </form>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success mt-4 text-center">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger mt-4 text-center">@TempData["Error"]</div>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function calculateTotalPrice() {
+            var checkIn = new Date(document.getElementById('CheckInDate').value);
+            var checkOut = new Date(document.getElementById('CheckOutDate').value);
+            var pricePerNight = @((ViewBag.Unit as Domain.Entities.Unit)?.Rates?.FirstOrDefault()?.PricePerNight ?? 0);
+
+            if (checkIn && checkOut && checkOut > checkIn) {
+                var timeDiff = checkOut - checkIn;
+                var nights = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+                var totalPrice = nights * pricePerNight;
+                document.getElementById('totalPrice').value = totalPrice.toFixed(2) + ' تومان';
+            } else {
+                document.getElementById('totalPrice').value = 'تاریخ‌ها نامعتبر';
+            }
+        }
+    </script>
+}

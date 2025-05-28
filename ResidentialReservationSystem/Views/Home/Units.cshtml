@@ -1,0 +1,126 @@
+﻿@model List<Domain.Entities.Unit>
+
+<div class="container">
+    <h1 class="text-center my-5">واحدهای موجود</h1>
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">هیچ واحدی موجود نیست.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var unit in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card unit-card">
+                        @if (unit.UnitImages != null && unit.UnitImages.Any())
+                        {
+                            <img src="@unit.UnitImages.First().ImageUrl" class="card-img-top" alt="@unit.Title" style="height: 200px; object-fit: cover;">
+                        }
+                        else
+                        {
+                            <div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <span class="text-muted">بدون تصویر</span>
+                            </div>
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@unit.Title</h5>
+                            <p class="card-text">مجتمع: @(unit.Complex?.Name ?? "ناشناخته")</p>
+                            @if (unit.Rates != null && unit.Rates.Any())
+                            {
+                                <p class="card-text">نرخ‌ها:</p>
+                                <ul>
+                                    @foreach (var rate in unit.Rates)
+                                    {
+                                        <li>
+                                            از @rate.StartDate.ToString("yyyy-MM-dd") تا @rate.EndDate.ToString("yyyy-MM-dd"): @rate.PricePerNight.ToString("C")
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p class="card-text">نرخ‌ها: N/A</p>
+                            }
+                            <a asp-controller="Home" asp-action="UnitDetails" asp-route-unitId="@unit.Id" class="btn btn-primary details-toggle">جزئیات</a>
+                            @if (!User.IsInRole("Admin"))
+                            {
+                                <a asp-controller="Reservation" asp-action="Create" asp-route-unitId="@unit.Id" class="btn btn-success mt-2">اکنون رزرو کنید</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <h1 class="text-center my-5">اقامتگاه‌های شهر شما</h1>
+    @{
+        var complexes = ViewBag.Complexes as List<Domain.Entities.Complex>;
+    }
+    @if (complexes == null || !complexes.Any())
+    {
+        <p class="text-center text-muted">هیچ مجتمعی موجود نیست.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var complex in complexes)
+            {
+                <div class="col-md-4 mb-4">
+                    <a asp-controller="Home" asp-action="ComplexUnits" asp-route-complexId="@complex.Id" class="card complex-card">
+                        <div class="card-body">
+                            <h5 class="card-title">@complex.Name</h5>
+                            <p class="card-text">@complex.Address</p>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<style>
+    .unit-card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+
+        .unit-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+    .details-toggle {
+        transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+        .details-toggle:hover {
+            transform: scale(1.1);
+            background-color: #0056b3;
+        }
+
+    .complex-card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+
+        .complex-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>

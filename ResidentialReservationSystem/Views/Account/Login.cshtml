@@ -1,0 +1,33 @@
+﻿@model Application.DTO.LoginDTO
+
+<h2>ورود</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}
+
+<form asp-action="Login" method="post">
+    <div class="form-group">
+        <label asp-for="Username">نام کاربری</label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">رمز عبور</label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">ورود</button>
+</form>
+
+<p>حساب کاربری ندارید؟ <a asp-action="Register">اینجا ثبت‌نام کنید</a></p>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

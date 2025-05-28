@@ -1,0 +1,82 @@
+﻿@using Domain.Entities
+@model List<Domain.Entities.Reservation>
+
+@{
+    var user = ViewBag.User as Domain.Entities.User;
+}
+
+<div class="container">
+    <h1 class="text-center my-5">جزئیات کاربر</h1>
+    @if (user == null)
+    {
+        <p class="text-center text-muted">کاربر یافت نشد.</p>
+    }
+    else
+    {
+        <div class="card user-info mb-5">
+            <div class="card-body">
+                <h5 class="card-title">اطلاعات کاربر</h5>
+                <p><strong>نام کاربری:</strong> @user.Username</p>
+                <p><strong>نام کامل:</strong> @user.FullName</p>
+                <p><strong>نقش:</strong> @user.Role</p>
+            </div>
+        </div>
+
+        <h2 class="text-center my-5">رزروها</h2>
+        @if (!Model.Any())
+        {
+            <p class="text-center text-muted">هیچ رزرو برای این کاربر یافت نشد.</p>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var reservation in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card reservation-card">
+                            <div class="card-body">
+                                <p><strong>شناسه رزرو:</strong> @reservation.Id</p>
+                                <p><strong>واحد:</strong> @reservation.Unit?.Title</p>
+                                <p><strong>تاریخ ورود:</strong> @reservation.CheckInDate.ToShortDateString()</p>
+                                <p><strong>تاریخ خروج:</strong> @reservation.CheckOutDate.ToShortDateString()</p>
+                                <p><strong>قیمت کل:</strong> @reservation.TotalPrice.ToString("C")</p>
+                                <p><strong>وضعیت:</strong> @reservation.Status</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    }
+    <div class="text-center mt-5">
+        <a asp-action="Users" class="btn btn-secondary back-button">بازگشت به کاربران</a>
+    </div>
+</div>
+
+<style>
+    .user-info, .reservation-card {
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .back-button {
+        transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+        .back-button:hover {
+            transform: scale(1.1);
+            background-color: #5a6268;
+        }
+</style>

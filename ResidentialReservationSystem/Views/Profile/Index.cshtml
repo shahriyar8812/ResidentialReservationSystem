@@ -1,0 +1,44 @@
+﻿@model Application.DTO.ProfileDTO
+
+<h2>پروفایل</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">اطلاعات کاربر</h5>
+        <p><strong>نام کاربری:</strong> @Model.Username</p>
+        <p><strong>نام کامل:</strong> @Model.FullName</p>
+        <p><strong>نقش:</strong> @Model.Role</p>
+    </div>
+</div>
+
+<h3 class="mt-4">تاریخچه رزروها</h3>
+@if (Model.Reservations.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>واحد</th>
+                <th>مجتمع</th>
+                <th>تاریخ ورود</th>
+                <th>تاریخ خروج</th>
+                <th>وضعیت</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reservation in Model.Reservations)
+            {
+                <tr>
+                    <td>@reservation.Unit.Title</td>
+                    <td>@reservation.Unit.Complex.Name</td>
+                    <td>@reservation.CheckInDate.ToShortDateString()</td>
+                    <td>@reservation.CheckOutDate.ToShortDateString()</td>
+                    <td>@reservation.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>هیچ رزروی یافت نشد.</p>
+}

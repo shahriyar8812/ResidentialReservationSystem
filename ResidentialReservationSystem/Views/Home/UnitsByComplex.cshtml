@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Domain.Entities.Unit>
+
+@{
+    ViewData["Title"] = $"واحدها در {ViewBag.ComplexName}";
+}
+
+<div class="container">
+    <h1 class="text-center my-5 animate__animated animate__fadeIn">واحدها در @ViewBag.ComplexName</h1>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="text-muted">هیچ واحدی در این مجتمع موجود نیست.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var unit in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="unit-card animate__animated animate__fadeInUp">
+                        @if (unit.UnitImages != null && unit.UnitImages.Any())
+                        {
+                            <img src="@unit.UnitImages.First().ImageUrl" alt="@unit.Title" class="img-fluid" />
+                        }
+                        else
+                        {
+                            <img src="https://via.placeholder.com/300x200?text=بدون+تصویر" alt="بدون تصویر" class="img-fluid" />
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@unit.Title</h5>
+                            <p class="card-text"><strong>توضیحات:</strong> @unit.Description</p>
+                            <p class="card-text"><strong>ظرفیت:</strong> @unit.Capacity</p>
+                            <p class="card-text"><strong>تعداد اتاق‌خواب‌ها:</strong> @unit.BedroomCount</p>
+                            <p class="card-text"><strong>موجود:</strong> @(unit.IsAvailable ? "بله" : "خیر")</p>
+                            <a asp-action="UnitDetails" asp-route-id="@unit.Id" class="btn btn-primary">نمایش جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary">بازگشت به صفحه اصلی</a>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+}

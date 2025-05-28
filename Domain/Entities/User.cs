@@ -10,10 +10,10 @@ namespace Domain.Entities
     {
         public int Id { get; set; }
         public string Username { get; set; }
-        public string Password { get; set; } // هش‌کرده در نسخه نهایی
+        public string Password { get; set; } 
         public string FullName { get; set; }
 
-        public UserRole Role { get; set; } // نقش کاربر از نوع enum
+        public UserRole Role { get; set; }
 
         public ICollection<Reservation> Reservations { get; set; }
     }

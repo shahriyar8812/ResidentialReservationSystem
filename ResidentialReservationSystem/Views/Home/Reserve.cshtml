@@ -1,0 +1,113 @@
+﻿@using Domain.Entities
+@model Domain.Entities.Reservation
+
+@{
+    ViewData["Title"] = "رزرو واحد";
+    var unit = ViewBag.Unit as Unit;
+}
+
+<div class="container">
+    <h1 class="text-center my-5 animate__animated animate__fadeIn">رزرو @(unit?.Title ?? "واحد ناشناخته")</h1>
+
+    <form asp-action="Reserve" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="UnitId" />
+
+        <div class="form-group mb-3">
+            <label asp-for="CheckInDate" class="control-label">تاریخ ورود</label>
+            <input asp-for="CheckInDate" class="form-control" type="date" id="checkInDate" required />
+            <span asp-validation-for="CheckInDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="CheckOutDate" class="control-label">تاریخ خروج</label>
+            <input asp-for="CheckOutDate" class="form-control" type="date" id="checkOutDate" required />
+            <span asp-validation-for="CheckOutDate" class="text-danger"></span>
+        </div>
+
+        <p><strong>روزهای اجباری ورود/خروج:</strong> @(unit?.HasMandatoryCheckInOut == true ? "بله" : "خیر")</p>
+
+        @if (unit?.HasMandatoryCheckInOut == true)
+        {
+            <div class="alert alert-info">
+                <strong>قوانین ورود/خروج:</strong>
+                @if (unit?.Rates != null && unit.Rates.Any())
+                {
+                    <ul class="list-group mb-3">
+                        @foreach (var rate in unit.Rates.OrderBy(r => r.StartDate))
+                        {
+                            var startDay = rate.StartDate.DayOfWeek.ToString();
+                            var endDay = rate.EndDate.DayOfWeek.ToString();
+                            <li class="list-group-item">
+                                ورود در @startDay، خروج در @endDay: @rate.PricePerNight.ToString("C") هر شب
+                                (معتبر از @rate.StartDate.ToString("yyyy-MM-dd") تا @rate.EndDate.ToString("yyyy-MM-dd"))
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p class="text-warning">هیچ قانون ورود/خروجی از نرخ‌ها استنباط نشده است.</p>
+                }
+            </div>
+        }
+
+        <h4>نرخ‌های موجود برای این واحد</h4>
+        @if (unit?.Rates != null && unit.Rates.Any())
+        {
+            <ul class="list-group mb-3">
+                @foreach (var rate in unit.Rates.OrderBy(r => r.StartDate))
+                {
+                    var startDay = rate.StartDate.DayOfWeek.ToString();
+                    var endDay = rate.EndDate.DayOfWeek.ToString();
+                    <li class="list-group-item">
+                        از @startDay تا @endDay: @rate.PricePerNight.ToString("C") هر شب
+                        (معتبر از @rate.StartDate.ToString("yyyy-MM-dd") تا @rate.EndDate.ToString("yyyy-MM-dd"))
+                        @if (!unit.HasMandatoryCheckInOut)
+                        {
+                            <span class="text-info">(هیچ روز اجباری ورود/خروج؛ هر تاریخی در این دوره معتبر است)</span>
+                        }
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p class="text-warning">هیچ نرخ موجودی برای این واحد وجود ندارد.</p>
+        }
+
+        <h4>رزروهای موجود برای این واحد</h4>
+        @{
+            var reservations = ViewBag.ExistingReservations as List<Reservation> ?? new List<Reservation>();
+            if (reservations.Any())
+            {
+                <ul class="list-group mb-3">
+                    @foreach (var res in reservations.Where(r => r.Status != ReservationStatus.Cancelled))
+                    {
+                        <li class="list-group-item">
+                            از @res.CheckInDate.ToString("yyyy-MM-dd") تا @res.CheckOutDate.ToString("yyyy-MM-dd") (وضعیت: @res.Status)
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-info">هیچ رزرو موجودی برای این واحد وجود ندارد.</p>
+            }
+        }
+
+        <div class="form-group mb-3 mt-3">
+            <button type="submit" class="btn btn-primary">رزرو</button>
+            <a asp-action="UnitDetails" asp-controller="Home" asp-route-id="@Model.UnitId" class="btn btn-secondary">لغو</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('checkInDate').setAttribute('min', '@DateTime.Today.ToString("yyyy-MM-dd")');
+        document.getElementById('checkOutDate').setAttribute('min', '@DateTime.Today.AddDays(1).ToString("yyyy-MM-dd")');
+    </script>
+}

@@ -9,3 +9,31 @@ C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\Domain\obj\Debug\ne
 C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\mmina\OneDrive\Desktop\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\ref\Domain.dll
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\bin\Debug\net8.0\Domain.dll
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\bin\Debug\net8.0\Domain.pdb
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.dll
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\Domain.pdb
+E:\asp.net\پروژه های کلاسی\ResidentialReservationSystem\ResidentialReservationSystem\Domain\obj\Debug\net8.0\ref\Domain.dll

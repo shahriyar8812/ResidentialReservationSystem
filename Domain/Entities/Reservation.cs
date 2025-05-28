@@ -19,6 +19,8 @@ namespace Domain.Entities
         public DateTime CheckInDate { get; set; }
         public DateTime CheckOutDate { get; set; }
 
+        public decimal TotalPrice { get; set; } 
+
         public ReservationStatus Status { get; set; }
     }
 
@@ -29,5 +31,4 @@ namespace Domain.Entities
         Cancelled,
         Completed
     }
-
 }

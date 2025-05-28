@@ -1,0 +1,42 @@
+﻿@using Domain.Entities
+@model CheckInRule
+
+<h2>مدیریت قوانین ورود برای واحد: @Model.Unit.Title</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        <p>@TempData["Error"]</p>
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        <p>@TempData["Success"]</p>
+    </div>
+}
+
+<form asp-action="ManageCheckInRules" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="UnitId" />
+
+    <div class="form-group">
+        <label asp-for="AllowedCheckInDay">روز مجاز ورود</label>
+        <select asp-for="AllowedCheckInDay" class="form-control" asp-items="Html.GetEnumSelectList<DayOfWeek>()">
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AllowedCheckOutDay">روز مجاز خروج</label>
+        <select asp-for="AllowedCheckOutDay" class="form-control" asp-items="Html.GetEnumSelectList<DayOfWeek>()">
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">ذخیره قوانین</button>
+    <a asp-action="Units" class="btn btn-secondary">بازگشت به واحدها</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

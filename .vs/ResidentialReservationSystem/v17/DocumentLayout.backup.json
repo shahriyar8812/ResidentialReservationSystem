@@ -1,7 +1,280 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mmina\\OneDrive\\Desktop\\ResidentialReservationSystem\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\home\\unitdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\home\\unitdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\controllers\\unitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\controllers\\unitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\repository\\unitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\unitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\repository\\featurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\featurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\repository\\complexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\complexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\repository\\checkinrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\checkinrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\infrastructure\\deta\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2249A4-6635-48AE-816C-71E7FF964924}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\deta\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\units\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\units\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iunitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\ifeaturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ifeaturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\icomplexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icomplexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\icheckinrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icheckinrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\unitimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\unitimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\unitfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\unitfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\facility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\facility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\domain\\entities\\checkinrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB765C7-DC62-414F-A86D-A39D04D83225}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\checkinrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\services\\unitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\unitimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\unitimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\unitfeaturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\unitfeaturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\uniteditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\uniteditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\unitcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\unitcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\ratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\ratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\application\\dto\\complexcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982D9119-EBB9-4ED2-AB6C-86DA1723D010}|Application\\Application.csproj|solutionrelative:application\\dto\\complexcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\home\\unitsbycomplex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\home\\unitsbycomplex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\home\\units.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\home\\units.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\home\\reserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\home\\reserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\home\\complexunits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\home\\complexunits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\units.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\units.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\managecheckinrules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\managecheckinrules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\editunit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\editunit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\editcomplex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\editcomplex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\createunit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\createunit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\createcomplex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\createcomplex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\admin\\complexes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\admin\\complexes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|e:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\residentialreservationsystem\\residentialreservationsystem\\residentialreservationsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF991595-CC35-4683-B54B-C32396F67F5E}|ResidentialReservationSystem\\ResidentialReservationSystem.csproj|solutionrelative:residentialreservationsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +282,828 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T08:31:40.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ReservationService.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\Services\\ReservationService.cs",
+              "RelativeToolTip": "Application\\Services\\ReservationService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwE0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:56:20.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ReservationRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\ReservationRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:56:43.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UserRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:08:29.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:09:03.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitDetails.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\UnitDetails.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Home\\UnitDetails.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\UnitDetails.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Home\\UnitDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:34:58.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Controllers\\ReservationController.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:21:02.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitsController.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\UnitsController.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Controllers\\UnitsController.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\UnitsController.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Controllers\\UnitsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T09:12:05.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Controllers\\ProfileController.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:12:17.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FeatureRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\FeatureRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\FeatureRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\FeatureRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\FeatureRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:07:04.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ComplexRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\ComplexRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\ComplexRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\ComplexRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\ComplexRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:06:39.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:04:21.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Deta\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Deta\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Deta\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Deta\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:05:48.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Program.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Program.cs",
+              "RelativeToolTip": "ResidentialReservationSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:05:18.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Units\\Index.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Units\\Index.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Units\\Index.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Units\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T14:05:00.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\UnitRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UnitRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\UnitRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\UnitRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:02:10.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:26:18.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IFeatureRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IFeatureRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IFeatureRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IFeatureRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IFeatureRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:04:26.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReservationService.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:26:30.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CheckInRuleRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\CheckInRuleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\CheckInRuleRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Infrastructure\\Repository\\CheckInRuleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\CheckInRuleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:06:26.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IComplexRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IComplexRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IComplexRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IComplexRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IComplexRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:04:13.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:04:09.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUnitRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IUnitRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUnitRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IUnitRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUnitRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T08:51:40.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUnitService.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IUnitService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUnitService.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IUnitService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUnitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:13:14.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T08:51:39.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:03:17.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitImage.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\UnitImage.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UnitImage.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\UnitImage.cs",
+              "RelativeToolTip": "Domain\\Entities\\UnitImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:03:15.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitFeature.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\UnitFeature.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UnitFeature.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\UnitFeature.cs",
+              "RelativeToolTip": "Domain\\Entities\\UnitFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:03:05.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Feature.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Feature.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Feature.cs",
+              "RelativeToolTip": "Domain\\Entities\\Feature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:02:38.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Facility.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Facility.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Facility.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Facility.cs",
+              "RelativeToolTip": "Domain\\Entities\\Facility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:02:36.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Complex.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Complex.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Complex.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Complex.cs",
+              "RelativeToolTip": "Domain\\Entities\\Complex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:02:20.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:59:28.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICheckInRuleRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\ICheckInRuleRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ICheckInRuleRepository.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Interfaces\\ICheckInRuleRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ICheckInRuleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:06:00.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UnitFeatureDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitFeatureDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\UnitFeatureDto.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitFeatureDto.cs",
+              "RelativeToolTip": "Application\\DTO\\UnitFeatureDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:59:17.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UnitCreateDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitCreateDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\UnitCreateDto.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitCreateDto.cs",
+              "RelativeToolTip": "Application\\DTO\\UnitCreateDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:59:07.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RateDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\RateDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\RateDto.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\RateDto.cs",
+              "RelativeToolTip": "Application\\DTO\\RateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:32:40.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Rate.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Rate.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Rate.cs",
+              "RelativeToolTip": "Domain\\Entities\\Rate.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:20:16.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Reservation.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Reservation.cs",
+              "RelativeToolTip": "Domain\\Entities\\Reservation.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:25:30.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Unit.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Unit.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\Unit.cs",
+              "RelativeToolTip": "Domain\\Entities\\Unit.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T06:33:28.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProfileDTO.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\ProfileDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\ProfileDTO.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\ProfileDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\ProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:58:58.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ComplexCreateDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\ComplexCreateDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\ComplexCreateDto.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\ComplexCreateDto.cs",
+              "RelativeToolTip": "Application\\DTO\\ComplexCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:28:17.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UnitService.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\Services\\UnitService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UnitService.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\Services\\UnitService.cs",
+              "RelativeToolTip": "Application\\Services\\UnitService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAOwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:01:48.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CheckInRule.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\CheckInRule.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CheckInRule.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Domain\\Entities\\CheckInRule.cs",
+              "RelativeToolTip": "Domain\\Entities\\CheckInRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:29:13.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Reservation\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:08:57.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Units.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Units.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\Units.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Units.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\Units.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:29:53.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ComplexUnits.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\ComplexUnits.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Home\\ComplexUnits.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\ComplexUnits.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Home\\ComplexUnits.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:34:16.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UnitImageDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitImageDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\UnitImageDto.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitImageDto.cs",
+              "RelativeToolTip": "Application\\DTO\\UnitImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:28:52.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:34:31.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UnitEditDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitEditDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\UnitEditDto.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\UnitEditDto.cs",
+              "RelativeToolTip": "Application\\DTO\\UnitEditDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:28:44.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Reserve.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\Reserve.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Home\\Reserve.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\Reserve.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Home\\Reserve.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:34:06.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\RegisterDTO.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:17:14.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Units.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\Units.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Home\\Units.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\Units.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Home\\Units.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAH0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:35:11.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\LoginDTO.cs",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\Application\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:16:46.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:35:52.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UnitsByComplex.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\UnitsByComplex.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Home\\UnitsByComplex.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Home\\UnitsByComplex.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Home\\UnitsByComplex.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:35:23.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserDetails.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\UserDetails.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\UserDetails.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\UserDetails.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\UserDetails.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:30:03.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAE4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:30:13.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Reservations.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Reservations.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\Reservations.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Reservations.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\Reservations.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T08:01:11.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ManageCheckInRules.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\ManageCheckInRules.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\ManageCheckInRules.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\ManageCheckInRules.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\ManageCheckInRules.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:29:26.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "EditComplex.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\EditComplex.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\EditComplex.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\EditComplex.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\EditComplex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:19:19.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EditUnit.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\EditUnit.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\EditUnit.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\EditUnit.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\EditUnit.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAHwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T08:24:47.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:20:01.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CreateUnit.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\CreateUnit.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\CreateUnit.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\CreateUnit.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\CreateUnit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T09:06:45.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CreateComplex.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\CreateComplex.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\CreateComplex.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\CreateComplex.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\CreateComplex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:18:57.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Complexes.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Complexes.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Admin\\Complexes.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Admin\\Complexes.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Admin\\Complexes.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:18:45.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:14:14.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:13:36.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ResidentialReservationSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\asp.net\\\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u06A9\u0644\u0627\u0633\u06CC\\ResidentialReservationSystem\\ResidentialReservationSystem\\ResidentialReservationSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ResidentialReservationSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T13:13:05.776Z"
             }
           ]
         }

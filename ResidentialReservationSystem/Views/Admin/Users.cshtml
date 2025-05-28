@@ -1,0 +1,79 @@
+﻿@using Domain.Entities
+@model List<Domain.Entities.User>
+
+<div class="container">
+    <h1 class="text-center my-5">مدیریت کاربران</h1>
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">هیچ کاربری یافت نشد.</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var user in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card user-card">
+                        <div class="card-body">
+                            <h5 class="card-title">@user.Username</h5>
+                            <p class="card-text"><strong>نام کامل:</strong> @user.FullName</p>
+                            <p class="card-text"><strong>نقش:</strong> @user.Role</p>
+                            <div class="d-flex gap-2">
+                                <a asp-action="UserDetails" asp-route-id="@user.Id" class="btn btn-primary action-button">نمایش جزئیات</a>
+                                @if (user.Role != UserRole.Admin)
+                                {
+                                    <form asp-action="DeleteUser" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="@user.Id" />
+                                        <button type="submit" class="btn btn-danger action-button" onclick="return confirm('آیا از حذف این کاربر مطمئن هستید؟')">حذف</button>
+                                    </form>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success mt-4 text-center">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger mt-4 text-center">@TempData["Error"]</div>
+    }
+</div>
+
+<style>
+    .user-card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        opacity: 0;
+        animation: slideIn 1s ease-in forwards;
+    }
+
+        .user-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+    @@keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .action-button {
+        transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+        }
+</style>

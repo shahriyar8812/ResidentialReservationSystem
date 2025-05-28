@@ -1,0 +1,381 @@
+﻿@using Domain.Entities
+@model Domain.Entities.Unit
+
+@{
+    ViewData["Title"] = "ویرایش واحد";
+    var complexes = ViewBag.Complexes as List<Complex> ?? new List<Complex>();
+    var features = ViewBag.Features as List<Feature> ?? new List<Feature>();
+    var selectedFeatureIds = ViewBag.SelectedFeatureIds as List<int> ?? new List<int>();
+    var unitImages = ViewBag.UnitImages as List<UnitImage> ?? new List<UnitImage>();
+    var rates = ViewBag.Rates as List<Rate> ?? new List<Rate>();
+}
+
+<h2>ویرایش واحد</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["Error"]
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Success"]
+    </div>
+}
+
+<form asp-action="EditUnit" method="post" enctype="multipart/form-data" id="editUnitForm">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title" class="control-label">عنوان</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ComplexId" class="control-label">مجتمع</label>
+        <select asp-for="ComplexId" class="form-control">
+            @foreach (var complex in complexes)
+            {
+                if (complex.Id == Model.ComplexId)
+                {
+                    <option value="@complex.Id" selected>@complex.Name</option>
+                }
+                else
+                {
+                    <option value="@complex.Id">@complex.Name</option>
+                }
+            }
+        </select>
+        <span asp-validation-for="ComplexId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label">توضیحات</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Capacity" class="control-label">ظرفیت</label>
+        <input asp-for="Capacity" class="form-control" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BedroomCount" class="control-label">تعداد اتاق‌خواب‌ها</label>
+        <input asp-for="BedroomCount" class="form-control" />
+        <span asp-validation-for="BedroomCount" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" asp-for="HasMandatoryCheckInOut" /> @Html.DisplayNameFor(model => model.HasMandatoryCheckInOut)
+        </label>
+    </div>
+
+    <h4>تصاویر</h4>
+    <div id="imageFields">
+        @if (unitImages.Any())
+        {
+            foreach (var image in unitImages)
+            {
+                <div class="form-group image-entry existing-image">
+                    <div class="row align-items-end">
+                        <div class="col">
+                            <img src="@image.ImageUrl" alt="تصویر واحد" style="max-width: 100px;" />
+                            <input type="hidden" name="images" value="@image.ImageUrl" />
+                        </div>
+                        <div class="col-auto">
+                            <input type="hidden" name="deleteImage[deleteImage_@image.Id]" value="false" id="deleteImage_@image.Id" />
+                            <button type="button" class="btn btn-danger btn-sm remove-image-btn" onclick="toggleImageDelete(this, @image.Id)">✖</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="form-group image-entry">
+                <div class="row align-items-end">
+                    <div class="col">
+                        <input type="file" name="images" class="form-control-file" accept="image/*" />
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-danger btn-sm remove-image-btn" onclick="removeImageField(this)">✖</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <button type="button" class="btn btn-secondary" onclick="addImageField()">افزودن تصویر دیگر</button>
+
+    <h4>نرخ‌ها</h4>
+    <div id="ratesFields">
+        @{
+            var daysOfWeek = new[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+            if (rates.Any())
+            {
+                int index = 0;
+                foreach (var rate in rates)
+                {
+                    var startDay = rate.StartDate.DayOfWeek.ToString();
+                    var endDay = rate.EndDate.DayOfWeek.ToString();
+                    <div class="form-group rate-entry existing-rate">
+                        <label>دوره نرخ @(index + 1)</label>
+                        <div class="row align-items-end">
+                            <div class="col">
+                                <label>روز شروع</label>
+                                <select name="ratesStartDates" class="form-control rate-start-day" data-index="@index" data-is-existing="true">
+                                    <option value="">یک روز انتخاب کنید</option>
+                                    @foreach (var day in daysOfWeek)
+                                    {
+                                        if (day == startDay)
+                                        {
+                                            <option value="@day" selected>
+                                                @(day switch
+                                                {
+                                                    "Monday" => "دوشنبه",
+                                                    "Tuesday" => "سه‌شنبه",
+                                                    "Wednesday" => "چهارشنبه",
+                                                    "Thursday" => "پنج‌شنبه",
+                                                    "Friday" => "جمعه",
+                                                    "Saturday" => "شنبه",
+                                                    "Sunday" => "یک‌شنبه",
+                                                    _ => day
+                                                })
+                                            </option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@day">
+                                                @(day switch
+                                                {
+                                                    "Monday" => "دوشنبه",
+                                                    "Tuesday" => "سه‌شنبه",
+                                                    "Wednesday" => "چهارشنبه",
+                                                    "Thursday" => "پنج‌شنبه",
+                                                    "Friday" => "جمعه",
+                                                    "Saturday" => "شنبه",
+                                                    "Sunday" => "یک‌شنبه",
+                                                    _ => day
+                                                })
+                                            </option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label>روز پایان</label>
+                                <select name="ratesEndDates" class="form-control rate-end-day" data-index="@index" data-is-existing="true">
+                                    <option value="">یک روز انتخاب کنید</option>
+                                    @foreach (var day in daysOfWeek)
+                                    {
+                                        if (day == endDay)
+                                        {
+                                            <option value="@day" selected>
+                                                @(day switch
+                                                {
+                                                    "Monday" => "دوشنبه",
+                                                    "Tuesday" => "سه‌شنبه",
+                                                    "Wednesday" => "چهارشنبه",
+                                                    "Thursday" => "پنج‌شنبه",
+                                                    "Friday" => "جمعه",
+                                                    "Saturday" => "شنبه",
+                                                    "Sunday" => "یک‌شنبه",
+                                                    _ => day
+                                                })
+                                            </option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@day">
+                                                @(day switch
+                                                {
+                                                    "Monday" => "دوشنبه",
+                                                    "Tuesday" => "سه‌شنبه",
+                                                    "Wednesday" => "چهارشنبه",
+                                                    "Thursday" => "پنج‌شنبه",
+                                                    "Friday" => "جمعه",
+                                                    "Saturday" => "شنبه",
+                                                    "Sunday" => "یک‌شنبه",
+                                                    _ => day
+                                                })
+                                            </option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label>قیمت هر شب</label>
+                                <input type="number" name="ratesPrices" class="form-control rate-price" data-index="@index" data-is-existing="true" step="0.01" value="@rate.PricePerNight" />
+                            </div>
+                            <div class="col-auto">
+                                <input type="hidden" name="deleteRate[deleteRate_@rate.Id]" value="false" id="deleteRate_@rate.Id" />
+                                <input type="hidden" name="existingRateIds" value="@rate.Id" />
+                                <button type="button" class="btn btn-danger btn-sm remove-rate-btn" onclick="toggleRateDelete(this, @rate.Id)">✖</button>
+                            </div>
+                        </div>
+                    </div>
+                    index++;
+                }
+            }
+            else
+            {
+                <div class="form-group rate-entry">
+                    <label>دوره نرخ ۱</label>
+                    <div class="row align-items-end">
+                        <div class="col">
+                            <label>روز شروع</label>
+                            <select name="ratesStartDates" class="form-control rate-start-day" data-index="0">
+                                <option value="">یک روز انتخاب کنید</option>
+                                <option value="Monday">دوشنبه</option>
+                                <option value="Tuesday">سه‌شنبه</option>
+                                <option value="Wednesday">چهارشنبه</option>
+                                <option value="Thursday">پنج‌شنبه</option>
+                                <option value="Friday">جمعه</option>
+                                <option value="Saturday">شنبه</option>
+                                <option value="Sunday">یک‌شنبه</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label>روز پایان</label>
+                            <select name="ratesEndDates" class="form-control rate-end-day" data-index="0">
+                                <option value="">یک روز انتخاب کنید</option>
+                                <option value="Monday">دوشنبه</option>
+                                <option value="Tuesday">سه‌شنبه</option>
+                                <option value="Wednesday">چهارشنبه</option>
+                                <option value="Thursday">پنج‌شنبه</option>
+                                <option value="Friday">جمعه</option>
+                                <option value="Saturday">شنبه</option>
+                                <option value="Sunday">یک‌شنبه</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label>قیمت هر شب</label>
+                            <input type="number" name="ratesPrices" class="form-control rate-price" data-index="0" step="0.01" required />
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-danger btn-sm remove-rate-btn" onclick="removeRateField(this)">✖</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+    <button type="button" class="btn btn-secondary" onclick="addRateField()">افزودن دوره نرخ دیگر</button>
+
+    <h4>ویژگی‌ها</h4>
+    <div class="form-group">
+        @foreach (var feature in features)
+        {
+            <div class="form-check">
+                <input type="checkbox" name="selectedFeatureIds" value="@feature.Id" class="form-check-input" @(selectedFeatureIds.Contains(feature.Id) ? "checked" : "") />
+                <label class="form-check-label">@feature.Name</label>
+            </div>
+        }
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="ذخیره" class="btn btn-primary" />
+        <a asp-action="Units" class="btn btn-secondary">لغو</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        let rateIndex = @rates.Count;
+
+        function addImageField() {
+            const container = document.getElementById('imageFields');
+            const newField = document.createElement('div');
+            newField.className = 'form-group image-entry';
+            newField.innerHTML = `
+                <div class="row align-items-end">
+                    <div class="col">
+                        <input type="file" name="images" class="form-control-file" accept="image/*" />
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-danger btn-sm remove-image-btn" onclick="removeImageField(this)">✖</button>
+                    </div>
+                </div>
+            `;
+            container.appendChild(newField);
+        }
+
+        function removeImageField(button) {
+            button.closest('.image-entry').remove();
+        }
+
+        function toggleImageDelete(button, imageId) {
+            const input = document.getElementById(`deleteImage_${imageId}`);
+            const currentValue = input.value === 'true';
+            input.value = !currentValue;
+            button.classList.toggle('btn-danger', currentValue);
+            button.classList.toggle('btn-secondary', !currentValue);
+        }
+
+        function addRateField() {
+            const container = document.getElementById('ratesFields');
+            const newField = document.createElement('div');
+            newField.className = 'form-group rate-entry';
+            newField.innerHTML = `
+                <label>دوره نرخ ${rateIndex + 1}</label>
+                <div class="row align-items-end">
+                    <div class="col">
+                        <label>روز شروع</label>
+                        <select name="ratesStartDates" class="form-control rate-start-day" data-index="${rateIndex}" required>
+                            <option value="">یک روز انتخاب کنید</option>
+                            <option value="Monday">دوشنبه</option>
+                            <option value="Tuesday">سه‌شنبه</option>
+                            <option value="Wednesday">چهارشنبه</option>
+                            <option value="Thursday">پنج‌شنبه</option>
+                            <option value="Friday">جمعه</option>
+                            <option value="Saturday">شنبه</option>
+                            <option value="Sunday">یک‌شنبه</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label>روز پایان</label>
+                        <select name="ratesEndDates" class="form-control rate-end-day" data-index="${rateIndex}" required>
+                            <option value="">یک روز انتخاب کنید</option>
+                            <option value="Monday">دوشنبه</option>
+                            <option value="Tuesday">سه‌شنبه</option>
+                            <option value="Wednesday">چهارشنبه</option>
+                            <option value="Thursday">پنج‌شنبه</option>
+                            <option value="Friday">جمعه</option>
+                            <option value="Saturday">شنبه</option>
+                            <option value="Sunday">یک‌شنبه</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label>قیمت هر شب</label>
+                        <input type="number" name="ratesPrices" class="form-control rate-price" data-index="${rateIndex}" step="0.01" required />
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-danger btn-sm remove-rate-btn" onclick="removeRateField(this)">✖</button>
+                    </div>
+                </div>
+            `;
+            container.appendChild(newField);
+            rateIndex++;
+        }
+
+        function removeRateField(button) {
+            button.closest('.rate-entry').remove();
+            rateIndex--;
+        }
+
+        function toggleRateDelete(button, rateId) {
+            const input = document.getElementById(`deleteRate_${rateId}`);
+            const currentValue = input.value === 'true';
+            input.value = !currentValue;
+            button.classList.toggle('btn-danger', currentValue);
+            button.classList.toggle('btn-secondary', !currentValue);
+        }
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}

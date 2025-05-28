@@ -1,0 +1,49 @@
+﻿@model List<Domain.Entities.Complex>
+
+<h2>مدیریت مجتمع‌ها</h2>
+
+<a asp-action="CreateComplex" class="btn btn-primary mb-3">ایجاد مجتمع جدید</a>
+
+@if (!Model.Any())
+{
+    <p>هیچ مجتمعی یافت نشد.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>شناسه مجتمع</th>
+                <th>نام</th>
+                <th>آدرس</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var complex in Model)
+            {
+                <tr>
+                    <td>@complex.Id</td>
+                    <td>@complex.Name</td>
+                    <td>@complex.Address</td>
+                    <td>
+                        <a asp-action="EditComplex" asp-route-id="@complex.Id" class="btn btn-warning btn-sm">ویرایش</a>
+                        <form asp-action="DeleteComplex" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@complex.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('آیا از حذف این مجتمع مطمئن هستید؟')">حذف</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}

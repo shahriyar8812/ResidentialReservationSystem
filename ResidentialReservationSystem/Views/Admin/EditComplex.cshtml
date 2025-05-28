@@ -1,0 +1,23 @@
+﻿@model Application.Dtos.ComplexCreateDto
+
+<h2>ویرایش مجتمع</h2>
+
+<form asp-action="EditComplex" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name">نام</label>
+        <input asp-for="Name" class="form-control" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address">آدرس</label>
+        <input asp-for="Address" class="form-control" required />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">ذخیره</button>
+    <a asp-action="Complexes" class="btn btn-secondary mt-3">لغو</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

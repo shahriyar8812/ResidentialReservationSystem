@@ -1,0 +1,65 @@
+﻿@using Domain.Entities
+@model List<Domain.Entities.Reservation>
+
+<h2>مدیریت رزروها</h2>
+
+@if (!Model.Any())
+{
+    <p>هیچ رزرو یافت نشد.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>شناسه</th>
+                <th>واحد</th>
+                <th>کاربر</th>
+                <th>تاریخ ورود</th>
+                <th>تاریخ خروج</th>
+                <th>قیمت کل</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reservation in Model)
+            {
+                <tr>
+                    <td>@reservation.Id</td>
+                    <td>@(reservation.Unit?.Title ?? "واحد یافت نشد")</td>
+                    <td>@(reservation.User?.Username ?? "کاربر یافت نشد")</td>
+                    <td>@reservation.CheckInDate.ToShortDateString()</td>
+                    <td>@reservation.CheckOutDate.ToShortDateString()</td>
+                    <td>@reservation.TotalPrice.ToString("C")</td>
+                    <td>@reservation.Status</td>
+                    <td>
+                        @if (reservation.Status == ReservationStatus.Pending)
+                        {
+                            <form asp-action="ConfirmReservation" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@reservation.Id" />
+                                <button type="submit" class="btn btn-primary btn-sm">تأیید</button>
+                            </form>
+                        }
+                        @if (reservation.Status != ReservationStatus.Cancelled && reservation.Status != ReservationStatus.Completed)
+                        {
+                            <form asp-action="CancelReservation" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@reservation.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('آیا از لغو این رزرو مطمئن هستید؟')">لغو</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
